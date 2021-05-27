@@ -1,0 +1,6 @@
+-sname ex2_drop_sup
+
+-setcookie ex2_drop_sup_cookie
+
++K true
++A30

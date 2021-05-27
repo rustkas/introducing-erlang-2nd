@@ -1,0 +1,6 @@
+-sname ex2_guards
+
+-setcookie ex2_guards_cookie
+
++K true
++A30

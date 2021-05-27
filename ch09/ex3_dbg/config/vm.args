@@ -1,0 +1,6 @@
+-sname ex3_dbg
+
+-setcookie ex3_dbg_cookie
+
++K true
++A30

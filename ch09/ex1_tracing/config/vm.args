@@ -1,0 +1,6 @@
+-sname ex1_tracing
+
+-setcookie ex1_tracing_cookie
+
++K true
++A30

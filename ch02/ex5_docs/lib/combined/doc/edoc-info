@@ -1,0 +1,3 @@
+%% encoding: UTF-8
+{application,combined}.
+{modules,[combined,convert,drop]}.

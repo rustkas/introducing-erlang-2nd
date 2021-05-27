@@ -1,0 +1,6 @@
+-sname ex4_dbg
+
+-setcookie ex4_dbg_cookie
+
++K true
++A30

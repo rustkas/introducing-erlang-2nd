@@ -1,0 +1,6 @@
+-sname ex9_trapping
+
+-setcookie ex9_trapping_cookie
+
++K true
++A30

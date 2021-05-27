@@ -1,0 +1,6 @@
+-sname ex1_throw_exception
+
+-setcookie ex1_throw_exception_cookie
+
++K true
++A30

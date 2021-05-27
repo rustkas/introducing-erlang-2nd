@@ -1,0 +1,6 @@
+-sname ex1_drop
+
+-setcookie ex1_drop_cookie
+
++K true
++A30

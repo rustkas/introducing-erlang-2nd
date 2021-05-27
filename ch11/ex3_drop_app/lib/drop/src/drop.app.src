@@ -1,0 +1,15 @@
+{application, drop,
+ [{description, "Dropping objects from towers"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [drop, drop_sup]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []},
+  {mod,{drop_app,[]}}
+ ]}.

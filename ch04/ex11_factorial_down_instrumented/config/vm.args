@@ -1,0 +1,6 @@
+-sname ex11_factorial_down_instrumented
+
+-setcookie ex11_factorial_down_instrumented_cookie
+
++K true
++A30

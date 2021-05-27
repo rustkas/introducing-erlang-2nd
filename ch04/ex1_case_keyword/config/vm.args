@@ -1,0 +1,6 @@
+-sname ex1_case_keyword
+
+-setcookie ex1_case_keyword_cookie
+
++K true
++A30

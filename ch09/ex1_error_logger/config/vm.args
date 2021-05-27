@@ -1,0 +1,6 @@
+-sname ex1_error_logger
+
+-setcookie ex1_error_logger_cookie
+
++K true
++A30

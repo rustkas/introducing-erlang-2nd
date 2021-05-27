@@ -1,0 +1,6 @@
+-sname ex3_drop_app
+
+-setcookie ex3_drop_app_cookie
+
++K true
++A30
