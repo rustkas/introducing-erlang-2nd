@@ -15,7 +15,7 @@ Create ex8_linking
 	# all commands in one string
 	$ rebar3 new umbrella ex8_linking && cd ex8_linking && rm -R apps && mkdir lib && cd lib && rebar3 new lib linking && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app linking
 	

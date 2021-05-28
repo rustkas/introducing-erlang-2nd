@@ -15,6 +15,6 @@ Create ex3_underscore
 	# all commands in one string
 	$ rebar3 new umbrella ex3_underscore && cd ex3_underscore && rm -R apps && mkdir lib && cd lib && rebar3 new lib underscore && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app underscore

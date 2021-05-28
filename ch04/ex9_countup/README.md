@@ -15,6 +15,6 @@ Create ex9_countdown
 	# all commands in one string
 	$ rebar3 new umbrella ex9_countup && cd ex9_countup && rm -R apps && mkdir lib && cd lib && rebar3 new lib countup && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app countup

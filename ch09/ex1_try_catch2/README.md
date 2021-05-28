@@ -15,7 +15,7 @@ Create ex1_throw_exception
 	# all commands in one string
 	$ rebar3 new umbrella ex1_throw_exception && cd ex1_throw_exception && rm -R apps && mkdir lib && cd lib && rebar3 new lib throw_exception && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app throw_exception
 	

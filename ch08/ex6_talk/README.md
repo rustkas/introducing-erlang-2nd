@@ -15,7 +15,7 @@ Create ex6_talk
 	# all commands in one string
 	$ rebar3 new umbrella ex6_talk && cd ex6_talk && rm -R apps && mkdir lib && cd lib && rebar3 new lib talk && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app talk
 	

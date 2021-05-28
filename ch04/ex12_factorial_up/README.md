@@ -15,6 +15,6 @@ Create ex12_factorial_up
 	# all commands in one string
 	$ rebar3 new umbrella ex12_factorial_up && cd ex12_factorial_up && rm -R apps && mkdir lib && cd lib && rebar3 new lib factorial_up && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app factorial_up

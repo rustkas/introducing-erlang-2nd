@@ -19,7 +19,7 @@ Build
 -----
 	$ rebar3 compile
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app drop_sup
 	

@@ -15,6 +15,6 @@ Create ex1_atoms
 	# all commands in one string
 	$ rebar3 new umbrella ex1_atoms && cd ex1_atoms && rm -R apps && mkdir lib && cd lib && rebar3 new lib atoms && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app atoms

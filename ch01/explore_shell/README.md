@@ -3,7 +3,7 @@ explore_shell
 
 An OTP library
 
-Run
+Test
 -----
 
     $ rebar3 eunit -v

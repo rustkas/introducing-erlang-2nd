@@ -15,6 +15,6 @@ Create ex4_ets
 	# all commands in one string
 	$ rebar3 new umbrella ex4_ets && cd ex4_ets && rm -R apps && mkdir lib && cd lib && rebar3 new lib ets_example && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app ets_example

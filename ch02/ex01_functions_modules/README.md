@@ -16,7 +16,7 @@ Create ex01_functions_modules
 	$ rebar3 new lib functions_modules
 	$ cd ..
 
-Run
+Test
 -----
     $ rebar3 eunit -v --app functions_modules
 	
@@ -33,7 +33,7 @@ Create ex1_drop
 	# all commands in one string
 	$ rebar3 new umbrella ex1_drop && cd ex1_drop && rm -R apps && mkdir lib && cd lib && rebar3 new lib drop && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app drop
 	
@@ -50,7 +50,7 @@ Create ex2_combined
 	# all commands in one string
 	$ rebar3 new umbrella ex2_combined && cd ex2_combined && rm -R apps && mkdir lib && cd lib && rebar3 new lib combined && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app combined
 	

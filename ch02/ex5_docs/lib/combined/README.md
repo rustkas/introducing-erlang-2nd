@@ -3,6 +3,6 @@ combined
 
 Make documentation
 
-Run
+Test
 -----
 	$ rebar3 edoc

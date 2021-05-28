@@ -15,7 +15,7 @@ Create ex1_simple
 	# all commands in one string
 	$ rebar3 new umbrella ex1_simple && cd ex1_simple && rm -R apps && mkdir lib && cd lib && rebar3 new lib simple && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app simple
 An OTP application
@@ -35,6 +35,6 @@ Create ex1_simple
 	# all commands in one string
 	$ rebar3 new umbrella ex1_simple && cd ex1_simple && rm -R apps && mkdir lib && cd lib && rebar3 new lib simple && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app ask
