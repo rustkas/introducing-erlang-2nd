@@ -15,6 +15,6 @@ Create ex1_product
 	# all commands in one string
 	$ rebar3 new umbrella ex1_product && cd ex1_product && rm -R apps && mkdir lib && cd lib && rebar3 new lib product && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app product

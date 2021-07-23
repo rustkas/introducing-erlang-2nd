@@ -20,6 +20,6 @@ Make documentation
 
 Copy file overview.edoc to combined/doc folder
 
-Run
+Test
 -----
 	$ rebar3 edoc

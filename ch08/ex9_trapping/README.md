@@ -15,7 +15,7 @@ Create ex9_trapping
 	# all commands in one string
 	$ rebar3 new umbrella ex9_trapping && cd ex9_trapping && rm -R apps && mkdir lib && cd lib && rebar3 new lib trapping && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app trapping
 	

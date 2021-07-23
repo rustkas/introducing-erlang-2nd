@@ -15,7 +15,7 @@ Create ex2_ask
 	# all commands in one string
 	$ rebar3 new umbrella ex2_ask && cd ex2_ask && rm -R apps && mkdir lib && cd lib && rebar3 new lib ask && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app ask
 	

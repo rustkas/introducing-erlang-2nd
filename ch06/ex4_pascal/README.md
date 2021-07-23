@@ -15,7 +15,7 @@ Create ex4_pascal
 	# all commands in one string
 	$ rebar3 new umbrella ex4_pascal && cd ex4_pascal && rm -R apps && mkdir lib && cd lib && rebar3 new lib pascal && cd ..
 
-Run
+Test
 -----
 	$ rebar3 eunit -v --app pascal
 	
