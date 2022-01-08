@@ -18,3 +18,7 @@ Create ex12_factorial_up
 Test
 -----
 	$ rebar3 eunit -v --app factorial_down
+
+Run shell
+-----
+	$ rebar3 shell --apps factorial_down

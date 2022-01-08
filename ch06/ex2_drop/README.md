@@ -16,4 +16,7 @@ Create ex2_drop
 Test
 -----
 	$ rebar3 eunit -v --app drop
-	
+
+Run shell
+-----
+	$ rebar3 shell --apps drop

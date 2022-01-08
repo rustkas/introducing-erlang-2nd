@@ -8,7 +8,7 @@ Create new project
 Create ex01_functions_modules
 ----
 
-    $ rebar3 new umbrella ex01_functions_modules
+  $ rebar3 new umbrella ex01_functions_modules
 	$ cd ex01_functions_modules
 	$ rm -R apps
 	$ mkdir lib

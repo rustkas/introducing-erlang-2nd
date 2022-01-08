@@ -18,3 +18,7 @@ Create ex01_string_concut
 Test
 -----
 	$ rebar3 eunit -v --app string_concut
+
+Run shell
+-----
+	$ rebar3 shell --apps string_concut	

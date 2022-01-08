@@ -18,3 +18,7 @@ Create ex1_hof
 Test
 -----
 	$ rebar3 eunit -v --app hof
+	
+Run shell
+-----
+	$ rebar3 shell --apps hof

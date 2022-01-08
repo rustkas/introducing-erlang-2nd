@@ -38,3 +38,7 @@ Create ex1_simple
 Test
 -----
 	$ rebar3 eunit -v --app ask
+
+Run shell
+-----
+	$ rebar3 shell --apps ask

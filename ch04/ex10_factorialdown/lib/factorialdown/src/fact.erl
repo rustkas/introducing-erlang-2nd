@@ -17,8 +17,8 @@ all_my_test_() ->
      {"Factorial 1", fun factorial_1/0},
      {"Factorial 2", fun factorial_2/0},
      {"Factorial 3", fun factorial_3/0},
-     {"Factorial 3", fun factorial_4/0},
-     {"Factorial 3", fun factorial_40/0}].
+     {"Factorial 4", fun factorial_4/0},
+     {"Factorial 40", fun factorial_40/0}].
 
 factorial_0() -> ?assertEqual(1, (factorial(0))).
 

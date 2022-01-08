@@ -35,7 +35,7 @@ atoms_test() ->
                  (drop:fall_velocity(Mars, X2))).
 
 % try to use wrong input values in the input
-unchecked_erro_test() ->
+unchecked_error_test() ->
     ?assertError(badarith,
                  (drop:fall_velocity(earth, -20))).
 

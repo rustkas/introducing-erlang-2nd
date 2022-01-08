@@ -18,4 +18,8 @@ Create ex10_resilient
 Test
 -----
 	$ rebar3 eunit -v --app resilient
+
+Run shell
+-----
+	$ rebar3 shell --apps resilient
 	

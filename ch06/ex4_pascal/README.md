@@ -19,4 +19,6 @@ Test
 -----
 	$ rebar3 eunit -v --app pascal
 	
-	
+Run shell
+-----
+	$ rebar3 shell --apps pascal

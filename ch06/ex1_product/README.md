@@ -18,3 +18,7 @@ Create ex1_product
 Test
 -----
 	$ rebar3 eunit -v --app product
+	
+Run shell
+-----
+	$ rebar3 shell --apps product
